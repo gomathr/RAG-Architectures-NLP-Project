@@ -35,7 +35,8 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 ## Dataset
 
 - HotpotQA dataset is used for training, validation, and testing
-- ## Project Structure
+
+## Project Structure
 
 - baseline_rag.ipynb – Implementation of Baseline RAG on pretrained and fine-tuned models  
 - enhanced_rag.ipynb – Implementation of Enhanced RAG (LightRAG-style) on pretrained and fine-tuned models  
