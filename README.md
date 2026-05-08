@@ -41,4 +41,9 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 - baseline_rag.ipynb – Implementation of Baseline RAG on pretrained and fine-tuned models  
 - enhanced_rag.ipynb – Implementation of Enhanced RAG (LightRAG-style) on pretrained and fine-tuned models  
 - qwen_hotpotqa_lora_final.zip – Fine-tuned Qwen model (LoRA adapters)  
-- README.md – Project overview and documentation  
+- README.md – Project overview and documentation
+- ## Repository Note
+
+This repository focuses on my individual contributions and notebook-based implementation. The full team-integrated version includes additional scripts, configuration files, prediction outputs, and model artifacts for Baseline, Enhanced, and Agentic RAG pipelines.
+
+Sample prediction files (.jsonl) represent model outputs used for evaluation across the different RAG architectures as part of the team project.
