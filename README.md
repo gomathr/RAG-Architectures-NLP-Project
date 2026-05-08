@@ -28,7 +28,16 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 - Conducted comprehensive evaluation using EM, F1, BERTScore, and RAGAS metrics  
 
 ### G) Additional Contributions to the Team
-- Provided the fine-tuned model for integration into Enhanced and Agentic RAG architectures  
+- created the zip file 'qwen_hotpotqa_lora_final.zip and Provided this zip file for integration into Enhanced and Agentic RAG architectures  
 - Shared helper function designs for hyperparameter tuning, evaluation (EM and F1), and visualization  
 - Led documentation and report structuring in an organized manner  
 
+## Dataset
+
+- HotpotQA dataset is used for training, validation, and testing
+- ## Project Structure
+
+- baseline_rag.ipynb – Implementation of Baseline RAG on pretrained and fine-tuned models  
+- enhanced_rag.ipynb – Implementation of Enhanced RAG (LightRAG-style) on pretrained and fine-tuned models  
+- qwen_hotpotqa_lora_final.zip – Fine-tuned Qwen model (LoRA adapters)  
+- README.md – Project overview and documentation  
