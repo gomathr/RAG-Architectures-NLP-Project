@@ -3,5 +3,32 @@ Development and Evaluation of Baseline, Enhanced and Hierarchical Agentic Retrie
 Augmented Generation (RAG) Architectures for Improving Large Language Models
 This project explores Retrieval-Augmented Generation (RAG) to improve the performance of large language models by incorporating external knowledge and reducing hallucinations. 
 We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (LightRAG), and Agentic RAG with hierarchical retrieval, on the HotpotQA dataset. The study focuses on improving answer quality, faithfulness, and multi-hop reasoning using pretrained transformer-based models and evaluation metrics.
+## My Contributions
 
+### A) Dataset and Model Selection
+- Contributed to dataset selection (HotpotQA), preparation and preprocessing 
+- Selected and configured pretrained models for all RAG architectures, including the encoder (BGE-M3), vector database (FAISS), and generator (Qwen)
+
+### B) System Design
+- Designed and implemented the Baseline RAG architecture using pretrained models  
+
+### C) Fine-Tuning of the Generator (Qwen)
+- Developed the fine-tuning strategy using Supervised Fine-Tuning (SFT) with LoRA  
+- Designed experiments comparing pretrained and fine-tuned models using EM and F1 metrics, demonstrating performance improvements  
+
+### D) Hyperparameter Tuning (Validation Set)
+- Created helper functions to perform hyperparameter tuning across multiple configurations, including top-k retrieval, temperature, and maximum tokens  
+- Analyzed model performance and selected optimal configurations  
+
+### E) Visualization Setup
+- Developed helper functions to visualize experimental results using comparative bar charts (pretrained vs fine-tuned models)  
+- Created visualizations for hyperparameter tuning across multiple configurations, and applied optimal values to the final test set  
+
+### F) Evaluation Methods
+- Conducted comprehensive evaluation using EM, F1, BERTScore, and RAGAS metrics  
+
+### G) Additional Contributions to the Team
+- Provided the fine-tuned model for integration into Enhanced and Agentic RAG architectures  
+- Shared helper function designs for hyperparameter tuning, evaluation (EM and F1), and visualization  
+- Led documentation and report structuring in an organized manner  
 
