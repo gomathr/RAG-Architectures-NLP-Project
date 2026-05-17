@@ -38,12 +38,53 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 
 ## Project Structure
 
-- baseline_rag.ipynb – Implementation of Baseline RAG on pretrained and fine-tuned models  
-- enhanced_rag.ipynb – Implementation of Enhanced RAG (LightRAG-style) on pretrained and fine-tuned models  
-- qwen_hotpotqa_lora_final.zip – Fine-tuned Qwen model (LoRA adapters)  
-- README.md – Project overview and documentation
-- ## Repository Note
+## Project Structure
 
-This repository focuses on my individual contributions and notebook-based implementation. The full team-integrated version includes additional scripts, configuration files, prediction outputs, and model artifacts for Baseline, Enhanced, and Agentic RAG pipelines.
+- `HotpotQA_BaselineRAG.ipynb`  
+  - Implementation of Baseline RAG using pretrained Qwen models and fine-tuned Qwen LoRA adapters  
 
-Sample prediction files (.jsonl) represent model outputs used for evaluation across the different RAG architectures as part of the team project.
+- `HotpotQA_BaselineRAG_FineTune.ipynb`  
+  - Supervised Fine-Tuning (SFT) with LoRA on the Qwen generator model, including hyperparameter experimentation and performance comparison between pretrained and fine-tuned models  
+
+- `HotpotQA_Enhanced_RAG.ipynb`  
+  - Enhanced RAG (LightRAG-style) implementation with improved retrieval integration using the fine-tuned Qwen model  
+
+- `Final_Project_Evaluation_Methods.ipynb`  
+  - Evaluation pipeline for EM, F1, BERTScore, and RAGAS metrics, including comparative visualization and performance analysis across Baseline, Enhanced, and Agentic RAG architectures  
+
+- `predictions_baseline.jsonl`  
+  - Prediction outputs generated from the Baseline RAG architecture  
+
+- `predictions_enhanced.jsonl`  
+  - Prediction outputs generated from the Enhanced RAG architecture  
+
+- `predictions_agentic.jsonl`  
+  - Prediction outputs generated from the Agentic RAG architecture  
+
+- `predictions_baseline_scored.jsonl`  
+  - Evaluation-scored outputs for Baseline RAG predictions  
+
+- `predictions_enhanced_scored.jsonl`  
+  - Evaluation-scored outputs for Enhanced RAG predictions  
+
+- `predictions_agentic_scored.jsonl`  
+  - Evaluation-scored outputs for Agentic RAG predictions  
+
+- `qwen_hotpotqa_lora_final.zip`  
+  - Fine-tuned Qwen LoRA adapters used across the RAG architectures  
+
+- `rag_evaluation_results.pdf`  
+  - Comparative evaluation visualizations and overall performance analysis reports  
+
+- `rag_evaluation_heatmap.pdf`  
+  - Heatmap-based visualization and ranking analysis across evaluation metrics  
+
+- `README.md`  
+  - Project overview, contributions, methodology summary, and repository documentation
+
+
+## Repository Note
+
+This repository focuses on my individual contributions and research-oriented implementation for the RAG architectures project. It includes notebook-based implementations, prediction outputs, evaluation artifacts, fine-tuned model adapters, and comparative analysis across Baseline, Enhanced, and Agentic RAG systems.
+
+The complete team project additionally included integrated scripts, configuration files, and collaborative implementation components developed as part of the overall system.
