@@ -81,7 +81,7 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 - `README.md`  
   - Project overview, contributions, methodology summary, and repository documentation
  
-
+```text
 ├── README.md
 ├── notebooks/
 │   ├── HotpotQA_BaselineRAG.ipynb
@@ -100,7 +100,7 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 ├── docs/
 │   ├── rag_evaluation_results.pdf
 │   └── rag_evaluation_heatmap.pdf
-
+```
 
 ## Repository Note
 
