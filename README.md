@@ -1,8 +1,26 @@
-# RAG Architectures for Question Answering (HotpotQA) - NLP Project
-Development and Evaluation of Baseline, Enhanced and Hierarchical Agentic Retrieval
-Augmented Generation (RAG) Architectures for Improving Large Language Models
-This project explores Retrieval-Augmented Generation (RAG) to improve the performance of large language models by incorporating external knowledge and reducing hallucinations. 
-We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (LightRAG), and Agentic RAG with hierarchical retrieval, on the HotpotQA dataset. The study focuses on improving answer quality, faithfulness, and multi-hop reasoning using pretrained transformer-based models and evaluation metrics.
+# Retrieval-Augmented Generation (RAG) Architectures for Large Language Models
+
+**NLP / Retrieval-Augmented Generation Research Project**
+
+**Repository:** RAG-Architectures-NLP-Project
+**Author:** Gomathi Ramesh
+**University:** Rice University
+**Program:** Master’s in Data Science
+**Project Type:** NLP / Retrieval-Augmented Generation / Large Language Model Research
+**Course Project:** Research-Oriented Investigation of Baseline, Enhanced, and Agentic RAG Architectures
+
+
+## Development and Evaluation of Baseline, Enhanced, and Hierarchical Agentic Retrieval-Augmented Generation (RAG) Architectures for Improving Large Language Models
+
+## Project Overview
+
+This project explores Retrieval-Augmented Generation (RAG) to improve the performance of large language models by incorporating external knowledge retrieval and reducing hallucinated responses.
+
+The project experimentally investigates and evaluates multiple RAG architectures, including Baseline RAG, Enhanced RAG (LightRAG-style), and Agentic RAG with hierarchical retrieval, using the HotpotQA dataset with pretrained and fine-tuned Qwen models.
+
+The study focuses on improving answer quality, faithfulness, and multi-hop reasoning capabilities through retrieval-augmented large language models, parameter-efficient fine-tuning (LoRA), and comparative evaluation using EM, F1, BERTScore, and RAGAS metrics.
+
+
 ## My Contributions
 
 ### A) Dataset and Model Selection
