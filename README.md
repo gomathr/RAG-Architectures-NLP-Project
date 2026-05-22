@@ -2,15 +2,12 @@
 
 **NLP / Retrieval-Augmented Generation Research Project**
 
-
-**Repository:** RAG-Architectures-NLP-Project
-**Author:** Gomathi Ramesh
-**University:** Rice University
-**Program:** Master’s in Data Science
-**Project Type:** NLP / Retrieval-Augmented Generation / Large Language Model Research
-**Course Project:** Research-Oriented Investigation of Baseline, Enhanced, and Agentic RAG Architectures
-
-
+- **Repository:** RAG-Architectures-NLP-Project  
+- **Author:** Gomathi Ramesh
+- **University:** Rice University  
+- **Program:** Master’s in Data Science  
+- **Project Type:** NLP / Retrieval-Augmented Generation / Large Language Model Research  
+- **Course Project:** Research-Oriented Investigation of Baseline, Enhanced, and Agentic RAG Architectures
 
 ## Development and Evaluation of Baseline, Enhanced, and Hierarchical Agentic Retrieval-Augmented Generation (RAG) Architectures for Improving Large Language Models
 
