@@ -101,7 +101,25 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 │   ├── rag_evaluation_results.pdf
 │   └── rag_evaluation_heatmap.pdf
 ```
+## Tools and Libraries
 
+- Python
+- PyTorch
+- Hugging Face Transformers
+- Hugging Face Datasets
+- BGE-M3 Embeddings
+- FAISS
+- Qwen / Qwen2.5 Models
+- LoRA / PEFT
+- NumPy
+- Pandas
+- scikit-learn
+- Matplotlib
+- Seaborn
+- RAGAS
+- BERTScore
+- Google Colab GPU environment
+  
 ## Repository Note
 
 This repository focuses on my individual contributions and research-oriented implementation for the RAG architectures project. It includes notebook-based implementations, prediction outputs, evaluation artifacts, fine-tuned model adapters, and comparative analysis across Baseline, Enhanced, and Agentic RAG systems.
