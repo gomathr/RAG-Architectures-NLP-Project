@@ -20,39 +20,72 @@ The project experimentally investigates and evaluates multiple RAG architectures
 
 The study focuses on improving answer quality, faithfulness, and multi-hop reasoning capabilities through retrieval-augmented large language models, parameter-efficient fine-tuning (LoRA), and comparative evaluation using EM, F1, BERTScore, and RAGAS metrics.
 
+## Dataset
+
+- HotpotQA dataset is used for training, validation, and testing
+
+## Tools and Libraries
+
+- Python
+- PyTorch
+- Hugging Face Transformers
+- Hugging Face Datasets
+- BGE-M3 Embeddings
+- FAISS
+- Qwen / Qwen2.5 Models
+- LoRA / PEFT
+- NumPy
+- Pandas
+- scikit-learn
+- Matplotlib
+- Seaborn
+- RAGAS
+- BERTScore
+- Google Colab GPU environment
+
 
 ## My Contributions
 
 ### A) Dataset and Model Selection
-- Contributed to dataset selection (HotpotQA), preparation and preprocessing 
-- Selected and configured pretrained models for all RAG architectures, including the encoder (BGE-M3), vector database (FAISS), and generator (Qwen)
+
+* Contributed to dataset selection, preparation, and preprocessing using the HotpotQA dataset
+* Selected and configured pretrained components for all RAG architectures, including the encoder (BGE-M3), vector database (FAISS), and generator (Qwen)
 
 ### B) System Design
-- Designed and implemented the Baseline RAG architecture using pretrained models  
+
+* Designed and implemented the Baseline RAG architecture using pretrained models
 
 ### C) Fine-Tuning of the Generator (Qwen)
-- Developed the fine-tuning strategy using Supervised Fine-Tuning (SFT) with LoRA  
-- Designed experiments comparing pretrained and fine-tuned models using EM and F1 metrics, demonstrating performance improvements  
+
+* Developed the fine-tuning strategy using Supervised Fine-Tuning (SFT) with LoRA
+* Designed comparative experiments between pretrained and fine-tuned models using EM and F1 metrics, demonstrating measurable performance improvements
 
 ### D) Hyperparameter Tuning (Validation Set)
-- Created helper functions to perform hyperparameter tuning across multiple configurations, including top-k retrieval, temperature, and maximum tokens  
-- Analyzed model performance and selected optimal configurations  
 
-### E) Visualization Setup
-- Developed helper functions to visualize experimental results using comparative bar charts (pretrained vs fine-tuned models)  
-- Created visualizations for hyperparameter tuning across multiple configurations, and applied optimal values to the final test set  
+* Developed helper functions for hyperparameter tuning across multiple configurations, including top-k retrieval, temperature, and maximum token settings
+* Analyzed validation performance and selected optimal configurations for final evaluation
+
+### E) Visualization and Experimental Analysis
+
+* Developed helper functions for comparative visualization of pretrained and fine-tuned model performance using bar charts and evaluation plots
+* Created visualizations for hyperparameter tuning experiments and applied optimal configurations to the final test set
 
 ### F) Evaluation Methods
-- Conducted comprehensive evaluation using EM, F1, BERTScore, and RAGAS metrics  
 
-### G) Additional Contributions to the Team
-- created the zip file 'qwen_hotpotqa_lora_final.zip and Provided this zip file for integration into Enhanced and Agentic RAG architectures  
-- Shared helper function designs for hyperparameter tuning, evaluation (EM and F1), and visualization  
-- Led documentation and report structuring in an organized manner  
+* Conducted comprehensive evaluation using EM, F1, BERTScore, and RAGAS metrics
 
-## Dataset
+### G) Key Findings
 
-- HotpotQA dataset is used for training, validation, and testing
+* Fine-tuning the Qwen generator using SFT with LoRA improved retrieval-augmented question answering performance compared with the pretrained baseline model
+* Enhanced and Agentic RAG architectures demonstrated stronger multi-hop reasoning and contextual retrieval capabilities compared with the Baseline RAG system
+* Comparative evaluation using EM, F1, BERTScore, and RAGAS metrics showed improvements in answer quality, faithfulness, and retrieval effectiveness after fine-tuning
+* Experimental analysis highlighted the importance of retrieval strategies and parameter-efficient fine-tuning for improving large language model performance in multi-document question answering tasks
+
+### H) Additional Contributions to the Team
+
+* Created the fine-tuned model artifact (`qwen_hotpotqa_lora_final.zip`) and provided it for integration into Enhanced and Agentic RAG architectures
+* Shared helper-function designs for hyperparameter tuning, evaluation (EM/F1), and visualization workflows
+* Led documentation organization and report structuring for the project
 
 
 ## Project Structure
@@ -119,24 +152,7 @@ The study focuses on improving answer quality, faithfulness, and multi-hop reaso
 │   ├── rag_evaluation_results.pdf
 │   └── rag_evaluation_heatmap.pdf
 ```
-## Tools and Libraries
 
-- Python
-- PyTorch
-- Hugging Face Transformers
-- Hugging Face Datasets
-- BGE-M3 Embeddings
-- FAISS
-- Qwen / Qwen2.5 Models
-- LoRA / PEFT
-- NumPy
-- Pandas
-- scikit-learn
-- Matplotlib
-- Seaborn
-- RAGAS
-- BERTScore
-- Google Colab GPU environment
   
 ## Repository Note
 
