@@ -36,7 +36,6 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 
 - HotpotQA dataset is used for training, validation, and testing
 
-## Project Structure
 
 ## Project Structure
 
@@ -81,6 +80,26 @@ We evaluate multiple RAG architectures, including Baseline RAG, Enhanced RAG (Li
 
 - `README.md`  
   - Project overview, contributions, methodology summary, and repository documentation
+ 
+
+├── README.md
+├── notebooks/
+│   ├── HotpotQA_BaselineRAG.ipynb
+│   ├── HotpotQA_BaselineRAG_FineTune.ipynb
+│   ├── HotpotQA_Enhanced_RAG.ipynb
+│   └── Final_Project_Evaluation_Methods.ipynb
+├── outputs/
+│   ├── predictions_baseline.jsonl
+│   ├── predictions_enhanced.jsonl
+│   ├── predictions_agentic.jsonl
+│   ├── predictions_baseline_scored.jsonl
+│   ├── predictions_enhanced_scored.jsonl
+│   └── predictions_agentic_scored.jsonl
+├── models/
+│   └── qwen_hotpotqa_lora_final.zip
+├── docs/
+│   ├── rag_evaluation_results.pdf
+│   └── rag_evaluation_heatmap.pdf
 
 
 ## Repository Note
